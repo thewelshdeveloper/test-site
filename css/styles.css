@@ -1,0 +1,84 @@
+@media only screen and (min-width:480) {
+    /* Tablet size*/
+}
+
+@media only screen and (min-width:768) {
+    /* Desktop size*/
+}
+
+/* Mobile first */
+
+html,body{
+    padding:0;
+    margin:0;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* Hero */
+
+.hero-container{
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+}
+.hero-image {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 65%;
+}
+.hero-image-cover{
+    background-image: linear-gradient(180deg, rgba(5,5,5,0.00) 0%, #020202 62%);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+}
+
+/* Menu */
+
+.menu{
+    display: flex;
+    width: 100%;
+    z-index: 2;
+    flex-direction: column;
+}
+.menu-inner{
+    display: flex;
+    justify-content: flex-end;
+}
+.hamburger-link{
+    padding: 30px;
+}
+
+/* Main Hero Content */
+.hero-content{ 
+    display: flex;
+    z-index: 2;
+    padding: 20px;
+    height: 100%;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+.hero-container.hero-logo{
+    display: flex;
+    width: 100%;
+}
+
+.hero-content h1{ 
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+}
+
+.hero-content h1 span{
+   font-size: 21px;
+   text-transform: none;
+}
+
+
+
