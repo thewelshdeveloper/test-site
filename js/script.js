@@ -1,9 +1,11 @@
 $(document).ready(function() {
   $(".hamburger-link").click(() => {
+      event.preventDefault();
     $(".menu-inner").toggleClass("open");
   });
 
   $(".nav-link").on('click', (event) => {
+      event.preventDefault();
     var hash = event.target.getAttribute("data-section");
     $(".menu-inner").toggleClass("open");
     $([document.documentElement, document.body]).animate(
@@ -14,7 +16,8 @@ $(document).ready(function() {
     );
   });
 
-  $(".chevron-down").on('click', (event) => {
+  $(".chevron-icon").on('click', (event) => {
+      event.preventDefault();
     var hash = event.target.getAttribute("data-section");
     $([document.documentElement, document.body]).animate(
       {

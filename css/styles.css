@@ -116,7 +116,7 @@ html,body{
    text-transform: none;
 }
 
-.chevron-down{
+.chevron{
     display: flex;
     justify-content: center;
     padding:20px;
