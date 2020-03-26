@@ -3,18 +3,27 @@
   <head>
     <title>Website</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <div class="site-container">
-      <div class="hero-container">
+      <div id="home" class="hero-container">
         <img class="hero-image" src="img/main-hero-m.png" alt="alt" />
         <div class="hero-image-cover"></div>
         <div class="menu">
           <div class="menu-inner">
-            <a class="hamburger-link" href="#">
-              <img src="img/menu-hamburger.svg" />
+            <a class="hamburger-link">
+              <img class="burger" src="img/menu-hamburger.svg" />
+              <img class="cross" src="img/menu-hamburger-cross.svg" />
             </a>
+            <nav>
+              <a class="nav-link" data-section="#about">About</a>
+              <a class="nav-link" data-section="#projects">Projects</a>
+              <a class="nav-link" data-section="#experience">Experience</a>
+              <a class="nav-link" data-section="#history">History</a>
+              <a class="nav-link" data-section="#contact">Contact</a>
+            </nav>
           </div>
         </div>
         <div class="hero-content">
@@ -23,7 +32,27 @@
           </div>
           <h1><span>The Welsh</span>Developer</h1>
         </div>
+        <div class="chevron-down" data-section="#about">
+          <img src="img/chevron-down.svg"/>
+        </div>
+      </div>
+      <div id="about" class="about-container">
+        About
+      </div>
+      <div id="projects" class="about-container">
+        Projects
+      </div>
+      <div id="experience" class="about-container">
+        Experience
+      </div>
+      <div id="history" class="about-container">
+        History
+      </div>
+      <div id="contact" class="about-container">
+        Contact
       </div>
     </div>
+    <!-- Javascript tags below -->
+    <script src="js/script.js"></script>
   </body>
 </html>
