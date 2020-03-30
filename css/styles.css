@@ -25,7 +25,6 @@ html,body{
     display: flex;
     position: absolute;
     width: 100%;
-    height: 72%;
 }
 .hero-image-cover{
     background: -webkit-linear-gradient(180deg, rgba(5,5,5,0.00) 0%, #020202 62%);
@@ -33,7 +32,7 @@ html,body{
     background: -ms-linear-gradient(180deg, rgba(5,5,5,0.00) 0%, #020202 62%);
     background: -o-linear-gradient(180deg, rgba(5,5,5,0.00) 0%, #020202 62%);
     background: linear-gradient(180deg, rgba(5,5,5,0.00) 0%, #020202 62%);
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     z-index: 1;
     position: absolute;

@@ -3,13 +3,17 @@
   <head>
     <title>Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
   </head>
   <body>
     <div class="site-container">
       <div id="home" class="hero-container">
-        <img class="hero-image" src="img/main-hero-m.png" alt="alt" />
+        <picture>
+          <source media="(max-width: 767px)" srcset="img/main-hero-m.png">
+          <source media="(min-width: 768px)" srcset="img/main-hero.png">
+          <img class="hero-image" src="img/main-hero-m.png" alt="alt">
+        </picture>
         <div class="hero-image-cover"></div>
         <div class="menu">
           <div class="menu-inner">
@@ -50,9 +54,10 @@
       </div>
       <div id="contact" class="about-container">
         Contact
-      </div>
+      </div> 
     </div>
     <!-- Javascript tags below -->
     <script src="js/script.js"></script>
+    <script src="//localhost:35729/livereload.js"></script>
   </body>
 </html>

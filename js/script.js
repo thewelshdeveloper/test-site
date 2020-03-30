@@ -14,7 +14,7 @@ $(document).ready(function() {
       },
       1000
     );
-  });
+  }); 
 
   $(".chevron-icon").on('click', (event) => {
       event.preventDefault();
