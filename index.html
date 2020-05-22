@@ -3,59 +3,206 @@
   <head>
     <title>Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./css/styles.min.css" />
+    <link rel="stylesheet" href="./style/build/index.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
   </head>
-  <body>
-    <div class="site-container">
-      <div id="home" class="hero-container">
-        <picture>
-          <source media="(max-width: 767px)" srcset="img/main-hero-m.png">
-          <source media="(min-width: 768px)" srcset="img/main-hero.png">
-          <img class="hero-image" src="img/main-hero-m.png" alt="alt">
-        </picture>
-        <div class="hero-image-cover"></div>
-        <div class="menu">
-          <div class="menu-inner">
-            <a class="hamburger-link">
-              <img class="burger" src="img/menu-hamburger.svg" />
-              <img class="cross" src="img/menu-hamburger-cross.svg" />
-            </a>
-            <nav>
-              <a class="nav-link" data-section="#about">About</a>
-              <a class="nav-link" data-section="#projects">Projects</a>
-              <a class="nav-link" data-section="#experience">Experience</a>
-              <a class="nav-link" data-section="#history">History</a>
-              <a class="nav-link" data-section="#contact">Contact</a>
-            </nav>
+  <body> 
+    <div class="section-black">
+      <h2 class="about-heading">A little about me...</h2>
+      <p class="about-copy copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. . Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. . Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+      <div class="flex-right">
+        <h2 class="about-heading font-right-align">Things I do in my spare time...</h2>
+      </div>
+      <div class="about-grid flex-grid">
+        <div class="item six">
+          <div class="about-logo">
+            <img src="/img/travel.svg"/>
+            <span class="tag">Travelling</span>
           </div>
         </div>
-        <div class="hero-content">
-          <div class="hero-logo">
-            <img src="img/twd-dragon.png" />
+        <div class="item six">
+          <div class="about-logo">
+            <img src="/img/beer.svg"/>
+            <span class="tag">Beer Tasting</span>
           </div>
-          <h1><span>The Welsh</span>Developer</h1>
         </div>
-        <div class="chevron">
-          <img class="chevron-icon" data-section="#about" src="img/chevron-down.svg"/>
+        <div class="item six">
+          <div class="about-logo">
+            <img src="/img/friends.svg"/>
+            <span class="tag">Seeing Friends</span>
+          </div>
         </div>
+        <div class="item six">
+          <div class="about-logo">
+            <img src="/img/bike.svg"/>
+            <span class="tag">Cycling</span>
+          </div>
+        </div>
+        <div class="item six">
+          <div class="about-logo">
+            <img src="/img/weights.svg"/>
+            <span class="tag">Gymming</span>
+          </div>
+        </div>
+        <div class="item six">
+          <div class="about-logo">
+            <img src="/img/climbing.svg"/>
+            <span class="tag">Bouldering</span>
+          </div>
+        </div>   
       </div>
-      <div id="about" class="about-container">
-        About
+   </div>
+   <div class="section-white">
+    <h2 class="projects-heading">Projects I have worked on...</h2>
+    <div class="projects-grid flex-grid companies">
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/draw.svg"/>
+        </div>  
       </div>
-      <div id="projects" class="about-container">
-        Projects
-      </div>
-      <div id="experience" class="about-container">
-        Experience
-      </div>
-      <div id="history" class="about-container">
-        History
-      </div>
-      <div id="contact" class="about-container">
-        Contact
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/moj.svg"/>
+        </div>  
       </div> 
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/oktra.svg"/>
+        </div>  
+      </div> 
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/barclays.svg"/>
+        </div>  
+      </div> 
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/raymond-blanc.svg"/>
+        </div>  
+      </div>
+      <div class="item three">
+        <div class="company">
+          <img class="large" src="/img/company-logos/ow.svg"/>
+        </div>  
+      </div>
+      <div class="item three">
+        <div class="company">
+          <img class="large" src="/img/company-logos/occ.svg"/>
+        </div>  
+      </div>
+      <div class="item three">
+        <div class="company">
+          <img class="large" src="/img/company-logos/mediacom.svg"/>
+        </div>  
+      </div>
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/f-and-f.svg"/>
+        </div>  
+      </div>
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/ora.svg"/>
+        </div>  
+      </div> 
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/mcarthur-glen.svg"/>
+        </div>  
+      </div> 
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/warl.svg"/>
+        </div>  
+      </div> 
+      <div class="item five">
+        <div class="company">
+          <img class="small" src="/img/company-logos/usm.svg"/>
+        </div>  
+      </div>
+      <div class="item three">
+        <div class="company">
+          <img class="large" src="/img/company-logos/ffs.svg"/>
+        </div>  
+      </div>
+      <div class="item three">
+        <div class="company">
+          <img class="large" src="/img/company-logos/spire.svg"/>
+        </div>  
+      </div>
+      <div class="item three">
+        <div class="company">
+          <img class="large" src="/img/company-logos/uoc.svg"/>
+        </div>  
+      </div>
+   </div>
+   <div class="flex-right">
+    <h2 class="projects-heading font-right-align">Plus more...</h2>
+  </div>
+   </div>
+  
+   <div class="section-black">
+    <h2 class="skills-heading">What I've learnt over the years...</h2>
+    <div class="skills-list">
+      <h3 class="skills-list-heading underline-white">Languages</h3>
+      <div class="flex-grid skills-grid">
+        <div class="item two"><span>C#</span></div>
+        <div class="item two"><span>CSS</span></div>
+        <div class="item two"><span>ASP.NET</span></div>
+        <div class="item two"><span>SQL</span></div>
+        <div class="item two"><span>MySQL</span></div>
+        <div class="item two"><span>Objective C</span></div>
+        <div class="item two"><span>Swift</span></div>
+        <div class="item two"><span>MongoDB</span></div>
+        <div class="item two"><span>NodeJS</span></div>
+        <div class="item two"><span>DocumentDB</span></div>
+        <div class="item two"><span>AngularJS</span></div>
+        <div class="item two"><span>Bash</span></div>
+        <div class="item two"><span>JavaScript</span></div>
+        <div class="item two"><span>Powershell</span></div>
+        <div class="item two"><span>JQuery</span></div>
+        <div class="item two"><span>Varnish VCL</span></div>
+        <div class="item two"><span>GraphQL</span></div>
+        <div class="item two"><span>Nginx</span></div>
+        <div class="item two"><span>XML</span></div>
+        <div class="item two"><span>HTAccess</span></div>
+        <div class="item two"><span>JSON</span></div>
+        <div class="item two"><span>Grunt</span></div>
+        <div class="item two"><span>HTML</span></div>
+        <div class="item two"><span>Sass</span></div>   
+      </div>
     </div>
+    <div class="skills-list">
+      <h3 class="skills-list-heading underline-white">Languages</h3>
+      <div class="flex-grid skills-grid">
+        <div class="item two"><span>C#</span></div>
+        <div class="item two"><span>CSS</span></div>
+        <div class="item two"><span>ASP.NET</span></div>
+        <div class="item two"><span>SQL</span></div>
+        <div class="item two"><span>MySQL</span></div>
+        <div class="item two"><span>Objective C</span></div>
+        <div class="item two"><span>Swift</span></div>
+        <div class="item two"><span>MongoDB</span></div>
+        <div class="item two"><span>NodeJS</span></div>
+        <div class="item two"><span>DocumentDB</span></div>
+        <div class="item two"><span>AngularJS</span></div>
+        <div class="item two"><span>Bash</span></div>
+        <div class="item two"><span>JavaScript</span></div>
+        <div class="item two"><span>Powershell</span></div>
+        <div class="item two"><span>JQuery</span></div>
+        <div class="item two"><span>Varnish VCL</span></div>
+        <div class="item two"><span>GraphQL</span></div>
+        <div class="item two"><span>Nginx</span></div>
+        <div class="item two"><span>XML</span></div>
+        <div class="item two"><span>HTAccess</span></div>
+        <div class="item two"><span>JSON</span></div>
+        <div class="item two"><span>Grunt</span></div>
+        <div class="item two"><span>HTML</span></div>
+        <div class="item two"><span>Sass</span></div>   
+      </div>
+    </div>
+   </div>
+
     <!-- Javascript tags below -->
     <script src="js/script.js"></script>
     <script src="//localhost:35729/livereload.js"></script>

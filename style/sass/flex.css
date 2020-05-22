@@ -1,0 +1,50 @@
+/* line 2, flex.scss */
+.flex-grid {
+  display: flex;
+  flex-flow: wrap;
+}
+/* line 7, flex.scss */
+.flex-grid .item.six {
+  flex-basis: 33.3%;
+}
+/* line 10, flex.scss */
+.flex-grid .item.five {
+  flex-basis: 50%;
+}
+/* line 13, flex.scss */
+.flex-grid .item.three {
+  flex-basis: 100%;
+}
+/* line 16, flex.scss */
+.flex-grid .item.two {
+  flex-basis: 50%;
+}
+/* line 21, flex.scss */
+.flex-right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Tablet size*/
+}
+@media only screen and (min-width: 768px) {
+  /* Desktop size*/
+  /* line 38, flex.scss */
+  .flex-grid .item.six {
+    flex-basis: 16.6%;
+  }
+  /* line 41, flex.scss */
+  .flex-grid .item.five {
+    flex-basis: 20%;
+  }
+  /* line 44, flex.scss */
+  .flex-grid .item.three {
+    flex-basis: 33.3%;
+  }
+  /* line 47, flex.scss */
+  .flex-grid .item.two {
+    flex-basis: 50%;
+  }
+}

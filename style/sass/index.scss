@@ -1,0 +1,20 @@
+
+// Global 
+html, body{
+    display: flex;
+    flex-direction: column;
+    font-family:  "Arial Black";
+}
+
+.section{
+    &-white{
+        background-color: #FFFFFF;
+        color: #000000;
+        padding: 30px;
+    }
+    &-black{
+        background-color: #000000;
+        color: #FFFFFF;
+        padding: 30px;
+    }
+}

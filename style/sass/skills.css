@@ -1,0 +1,23 @@
+/* line 2, skills.scss */
+.skills-heading {
+  width: 70%;
+}
+/* line 5, skills.scss */
+.skills-list {
+  margin-top: 35px;
+}
+/* line 7, skills.scss */
+.skills-list-heading {
+  margin-bottom: 10px;
+}
+/* line 12, skills.scss */
+.skills-grid .item {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Tablet size*/
+}
+@media only screen and (min-width: 768px) {
+  /* Desktop size*/
+}

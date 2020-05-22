@@ -1,0 +1,65 @@
+.font{
+    &-white{
+        color: #FFFFFF;
+    }
+    &-right-align{
+        text-align: right;
+    }
+} 
+
+.copy{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    text-align: justify;
+}
+
+h2{
+    font-size: 21px;
+    letter-spacing: 0.52px;
+    margin: 0;
+}
+h3{
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    margin: 0;
+}
+
+.underline{
+    &-black:after{ 
+        content: "";
+        height: 2px;
+        background: linear-gradient(to right,  rgba(0,0,0,1) 0%, rgba(255, 255, 255,.5) 70%, rgba(255, 255, 255,1) 100%);
+        display: block;
+        margin-top: 10px;
+    }
+    &-white:after{ 
+        content: "";
+        height: 2px;
+        background: linear-gradient(to left,  rgba(0,0,0,1) 0%, rgba(255, 255, 255,.5) 50%, rgba(255, 255, 255,1) 100%);
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (min-width:480px) {
+    /* Tablet size*/
+  }
+
+@media only screen and (min-width:768px) {
+    /* Desktop size*/
+    .copy{
+        font-size: 18px;
+        letter-spacing: 0.45px;
+        text-align: center;
+    }
+    h2{
+        font-size: 36px;
+        letter-spacing: 0.9px;
+        max-width: unset;
+    }
+    h3{
+        font-size: 24px;
+        letter-spacing: 0.6px;
+    }
+} 

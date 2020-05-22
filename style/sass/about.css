@@ -1,0 +1,37 @@
+/* line 3, about.scss */
+.about-copy {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+/* line 7, about.scss */
+.about-heading {
+  width: 70%;
+}
+/* line 10, about.scss */
+.about-grid {
+  margin-top: 50px;
+}
+/* line 14, about.scss */
+.about-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+/* line 22, about.scss */
+.about-logo img {
+  width: 80%;
+  margin-bottom: 10px;
+}
+/* line 26, about.scss */
+.about-logo .tag {
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Tablet size*/
+}

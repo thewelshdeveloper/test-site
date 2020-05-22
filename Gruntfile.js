@@ -2,22 +2,26 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-watch");
   grunt.loadNpmTasks("grunt-contrib-connect");
   grunt.loadNpmTasks("grunt-contrib-cssmin");
+  grunt.loadNpmTasks('grunt-contrib-compass');
 
   grunt.initConfig({
     watch: {
       sass: {
-        files: "./css/*.scss",
-        tasks: ["compass"]
+        files: ["./style/sass/*.scss"],
+        tasks: ["compass"],
+        options: {
+          livereload: true
+        }
       },
       css: {
-        files: "./css/*.css",
+        files: ["./style/css/*.css","./style/sass/*.css"],
         tasks: ["cssmin"],
         options: {
           livereload: true
         }
       },
       html: {
-        files: ["./index.html", "./css/*.css"],
+        files: ["./*.html", "./style/sass/*.css", "./style/sass/*.scss", "./style/css/*.css"],
         options: {
           livereload: true
         }
@@ -41,16 +45,21 @@ module.exports = function(grunt) {
       target: {
         files: [
           {
-            expand: true,
-            cwd: "./css",
-            src: ["*.css"],
-            dest: "./css",
-            ext: ".min.css"
+            src: ["./style/css/*.css","./style/sass/*.css"],
+            dest: "./style/build/index.min.css",
           }
         ]
       }
-    }
+    },
+    compass: {
+			dist: {
+				options: {
+					sassDir: "./style/sass/",
+					cssDir: "./style/sass/"
+				}
+			}
+		}
   });
 
-  grunt.registerTask("default", ["connect", "watch"]);
+  grunt.registerTask("default", ["connect", "watch", "compass"]);
 };

@@ -1,0 +1,53 @@
+.flex{
+    &-grid{
+        display: flex;
+        flex-flow: wrap;
+
+        .item{
+            &.six{
+                flex-basis: 33.3%;
+            }
+            &.five{
+                flex-basis: 50%;
+            }
+            &.three{
+                flex-basis: 100%;
+            }
+            &.two{
+                flex-basis: 50%;
+            }           
+        }
+    }
+    &-right{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (min-width:480px) {
+    /* Tablet size*/
+}
+
+@media only screen and (min-width:768px) {
+    /* Desktop size*/
+
+    .flex{
+        &-grid{
+            .item{    
+                &.six{
+                    flex-basis: 16.6%;
+                }
+                &.five{
+                    flex-basis: 20%;
+                }
+                &.three{
+                    flex-basis: 33.3%;
+                }
+                &.two{
+                    flex-basis: 50%;
+                }
+            }
+        }
+    }
+}
