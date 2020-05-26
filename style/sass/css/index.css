@@ -1,17 +1,17 @@
-/* line 3, index.scss */
+/* line 3, ../index.scss */
 html, body {
   display: flex;
   flex-direction: column;
   font-family: "Arial Black";
 }
 
-/* line 10, index.scss */
+/* line 10, ../index.scss */
 .section-white {
   background-color: #FFFFFF;
   color: #000000;
   padding: 30px;
 }
-/* line 15, index.scss */
+/* line 15, ../index.scss */
 .section-black {
   background-color: #000000;
   color: #FFFFFF;

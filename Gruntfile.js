@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         }
       },
       css: {
-        files: ["./style/css/*.css","./style/sass/*.css"],
+        files: ["./style/css/*.css","./style/sass/css/*.css"],
         tasks: ["cssmin"],
         options: {
           livereload: true
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
       target: {
         files: [
           {
-            src: ["./style/css/*.css","./style/sass/*.css"],
+            src: ["./style/css/*.css","./style/sass/css/*.css"],
             dest: "./style/build/index.min.css",
           }
         ]
@@ -55,7 +55,7 @@ module.exports = function(grunt) {
 			dist: {
 				options: {
 					sassDir: "./style/sass/",
-					cssDir: "./style/sass/"
+					cssDir: "./style/sass/css/"
 				}
 			}
 		}

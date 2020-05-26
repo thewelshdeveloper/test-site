@@ -1,33 +1,35 @@
-/* line 2, projects.scss */
+@charset "UTF-8";
+/* line 2, ../projects.scss */
 .projects-heading {
   width: 70%;
 }
-/* line 5, projects.scss */
+/* line 5, ../projects.scss */
 .projects-grid {
   margin-top: 35px;
 }
-/* line 11, projects.scss */
+/* line 11, ../projects.scss */
 .projects-grid.companies .item:nth-child(5) {
   display: none;
 }
-/* line 12, projects.scss */
+/* line 12, ../projects.scss */
 .projects-grid.companies .item:nth-child(13) {
   display: none;
 }
-/* line 13, projects.scss */
+/* line 12, ../projects.scss */
+ß
 .projects-grid.companies .item:nth-child(14) {
   display: none;
 }
-/* line 14, projects.scss */
+/* line 14, ../projects.scss */
 .projects-grid.companies .item:nth-child(15) {
   display: none;
 }
-/* line 15, projects.scss */
+/* line 15, ../projects.scss */
 .projects-grid.companies .item:nth-child(16) {
   display: none;
 }
 
-/* line 21, projects.scss */
+/* line 21, ../projects.scss */
 .company {
   display: flex;
   flex-direction: column;
@@ -36,11 +38,11 @@
   margin-bottom: 30px;
   padding: 10px;
 }
-/* line 30, projects.scss */
+/* line 30, ../projects.scss */
 .company img.small {
   width: 90px;
 }
-/* line 33, projects.scss */
+/* line 33, ../projects.scss */
 .company img.large {
   width: 245px;
 }
@@ -50,23 +52,23 @@
 }
 @media only screen and (min-width: 768px) {
   /* Desktop size*/
-  /* line 51, projects.scss */
+  /* line 51, ../projects.scss */
   .projects-grid.companies .item:nth-child(5) {
     display: initial;
   }
-  /* line 52, projects.scss */
+  /* line 52, ../projects.scss */
   .projects-grid.companies .item:nth-child(13) {
     display: initial;
   }
-  /* line 53, projects.scss */
+  /* line 53, ../projects.scss */
   .projects-grid.companies .item:nth-child(14) {
     display: initial;
   }
-  /* line 54, projects.scss */
+  /* line 54, ../projects.scss */
   .projects-grid.companies .item:nth-child(15) {
     display: initial;
   }
-  /* line 55, projects.scss */
+  /* line 55, ../projects.scss */
   .projects-grid.companies .item:nth-child(16) {
     display: initial;
   }

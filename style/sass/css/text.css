@@ -1,34 +1,34 @@
-/* line 2, text.scss */
+/* line 2, ../text.scss */
 .font-white {
   color: #FFFFFF;
 }
-/* line 5, text.scss */
+/* line 5, ../text.scss */
 .font-right-align {
   text-align: right;
 }
 
-/* line 10, text.scss */
+/* line 10, ../text.scss */
 .copy {
   font-size: 14px;
   letter-spacing: 0.35px;
   text-align: justify;
 }
 
-/* line 16, text.scss */
+/* line 16, ../text.scss */
 h2 {
   font-size: 21px;
   letter-spacing: 0.52px;
   margin: 0;
 }
 
-/* line 21, text.scss */
+/* line 21, ../text.scss */
 h3 {
   font-size: 18px;
   letter-spacing: 0.45px;
   margin: 0;
 }
 
-/* line 28, text.scss */
+/* line 28, ../text.scss */
 .underline-black:after {
   content: "";
   height: 2px;
@@ -36,7 +36,7 @@ h3 {
   display: block;
   margin-top: 10px;
 }
-/* line 35, text.scss */
+/* line 35, ../text.scss */
 .underline-white:after {
   content: "";
   height: 2px;
@@ -50,21 +50,21 @@ h3 {
 }
 @media only screen and (min-width: 768px) {
   /* Desktop size*/
-  /* line 51, text.scss */
+  /* line 51, ../text.scss */
   .copy {
     font-size: 18px;
     letter-spacing: 0.45px;
     text-align: center;
   }
 
-  /* line 56, text.scss */
+  /* line 56, ../text.scss */
   h2 {
     font-size: 36px;
     letter-spacing: 0.9px;
     max-width: unset;
   }
 
-  /* line 61, text.scss */
+  /* line 61, ../text.scss */
   h3 {
     font-size: 24px;
     letter-spacing: 0.6px;
