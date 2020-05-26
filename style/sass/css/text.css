@@ -28,7 +28,14 @@ h3 {
   margin: 0;
 }
 
-/* line 28, ../text.scss */
+/* line 26, ../text.scss */
+h4 {
+  font-size: 18px;
+  letter-spacing: 0.15px;
+  margin: 0;
+}
+
+/* line 33, ../text.scss */
 .underline-black:after {
   content: "";
   height: 2px;
@@ -36,7 +43,7 @@ h3 {
   display: block;
   margin-top: 10px;
 }
-/* line 35, ../text.scss */
+/* line 40, ../text.scss */
 .underline-white:after {
   content: "";
   height: 2px;
@@ -50,21 +57,21 @@ h3 {
 }
 @media only screen and (min-width: 768px) {
   /* Desktop size*/
-  /* line 51, ../text.scss */
+  /* line 56, ../text.scss */
   .copy {
     font-size: 18px;
     letter-spacing: 0.45px;
     text-align: center;
   }
 
-  /* line 56, ../text.scss */
+  /* line 61, ../text.scss */
   h2 {
     font-size: 36px;
     letter-spacing: 0.9px;
     max-width: unset;
   }
 
-  /* line 61, ../text.scss */
+  /* line 66, ../text.scss */
   h3 {
     font-size: 24px;
     letter-spacing: 0.6px;

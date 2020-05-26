@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+
+    &-company{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .name{
+            font-size: 36px;
+            letter-spacing: 0.9px;
+            margin-left: 15px;
+        }
+        img{
+            height: 55px;
+        }
+    }
+
+    .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+    }
+}
+
+
+@media only screen and (min-width:480px) {
+    /* Tablet size*/
+}
+
+@media only screen and (min-width:768px) {
+    /* Desktop size*/
+}
