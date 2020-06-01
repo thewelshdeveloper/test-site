@@ -1,13 +1,13 @@
 $(document).ready(function() {
   $(".hamburger-link").click(() => {
       event.preventDefault();
-    $(".menu-inner").toggleClass("open");
+    $(".home-menu-inner").toggleClass("open");
   });
 
   $(".nav-link").on('click', (event) => {
       event.preventDefault();
     var hash = event.target.getAttribute("data-section");
-    $(".menu-inner").toggleClass("open");
+    $(".home-menu-inner").toggleClass("open");
     $([document.documentElement, document.body]).animate(
       {
         scrollTop: $(hash).offset().top

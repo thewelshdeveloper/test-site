@@ -7,7 +7,31 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
   </head>
   <body> 
-    <div class="section-black">
+    <div class="section-black home" style="background-image: url('img/main-hero.png');">
+      <div class="home-menu">
+        <div class="home-menu-inner">
+          <a class="hamburger-link">
+            <img class="burger" src="img/menu-hamburger.svg" />
+            <img class="cross" src="img/menu-hamburger-cross.svg" />
+          </a>
+          <nav>
+            <a class="nav-link" data-section="#about">About</a>
+            <a class="nav-link" data-section="#projects">Projects</a>
+            <a class="nav-link" data-section="#experience">Experience</a>
+            <a class="nav-link" data-section="#history">History</a>
+            <a class="nav-link" data-section="#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <div class="home-main">
+        <img src="img/twd-dragon.png"/>
+        <h1 class="heading"><span>The Welsh</span>DEVELOPER</h1>
+      </div>
+      <div class="home-scroll">
+        <img src="img/chevron-down.svg"/>
+      </div>
+    </div>
+    <div id="about" class="section-black">
       <h2 class="about-heading">A little about me...</h2>
       <p class="about-copy copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. . Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. . Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
       <div class="flex-right">
@@ -52,7 +76,7 @@
         </div>   
       </div>
    </div>
-   <div class="section-white">
+   <div id="projects" class="section-white">
     <h2 class="projects-heading">Projects I have worked on...</h2>
     <div class="projects-grid flex-grid companies">
       <div class="item five">
@@ -140,8 +164,7 @@
     <h2 class="projects-heading font-right-align">Plus more...</h2>
   </div>
    </div>
-  
-   <div class="section-black">
+   <div id="experience" class="section-black">
     <h2 class="skills-heading">What I've learnt over the years...</h2>
     <div class="skills-list">
       <h3 class="skills-list-heading underline-white">Languages</h3>
@@ -202,8 +225,7 @@
       </div>
     </div>
    </div>
-
-   <div class="section-white">
+   <div id="history" class="section-white">
     <div class="flex-right">
       <h2 class="experience-heading font-right-align">Where I have gained my experience...</h2>
     </div>
@@ -253,8 +275,7 @@
       
      </div>
     </div>
-
-    <div class="section-black">
+    <div id="contact" class="section-black">
       <h2 class="contact-heading">Why not get in touch...</h2>
       <div class="contact-grid">
         <div class="item">
@@ -267,7 +288,6 @@
         </div>
       </div>
     </div>
-
     <div class="section-black">
       <div class="footer">
         <div class="footer-company">

@@ -14,28 +14,35 @@
   text-align: justify;
 }
 
-/* line 16, ../text.scss */
+/* line 15, ../text.scss */
+h1 {
+  font-size: 48px;
+  letter-spacing: 1.2px;
+  margin: 0;
+}
+
+/* line 21, ../text.scss */
 h2 {
   font-size: 21px;
   letter-spacing: 0.52px;
   margin: 0;
 }
 
-/* line 21, ../text.scss */
+/* line 26, ../text.scss */
 h3 {
   font-size: 18px;
   letter-spacing: 0.45px;
   margin: 0;
 }
 
-/* line 26, ../text.scss */
+/* line 31, ../text.scss */
 h4 {
   font-size: 18px;
   letter-spacing: 0.15px;
   margin: 0;
 }
 
-/* line 33, ../text.scss */
+/* line 38, ../text.scss */
 .underline-black:after {
   content: "";
   height: 2px;
@@ -43,7 +50,7 @@ h4 {
   display: block;
   margin-top: 10px;
 }
-/* line 40, ../text.scss */
+/* line 45, ../text.scss */
 .underline-white:after {
   content: "";
   height: 2px;
@@ -57,21 +64,21 @@ h4 {
 }
 @media only screen and (min-width: 768px) {
   /* Desktop size*/
-  /* line 56, ../text.scss */
+  /* line 61, ../text.scss */
   .copy {
     font-size: 18px;
     letter-spacing: 0.45px;
     text-align: center;
   }
 
-  /* line 61, ../text.scss */
+  /* line 66, ../text.scss */
   h2 {
     font-size: 36px;
     letter-spacing: 0.9px;
     max-width: unset;
   }
 
-  /* line 66, ../text.scss */
+  /* line 71, ../text.scss */
   h3 {
     font-size: 24px;
     letter-spacing: 0.6px;

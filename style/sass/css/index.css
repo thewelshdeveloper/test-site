@@ -3,15 +3,17 @@ html, body {
   display: flex;
   flex-direction: column;
   font-family: "Arial Black";
+  padding: 0;
+  margin: 0;
 }
 
-/* line 10, ../index.scss */
+/* line 12, ../index.scss */
 .section-white {
   background-color: #FFFFFF;
   color: #000000;
   padding: 30px;
 }
-/* line 15, ../index.scss */
+/* line 17, ../index.scss */
 .section-black {
   background-color: #000000;
   color: #FFFFFF;

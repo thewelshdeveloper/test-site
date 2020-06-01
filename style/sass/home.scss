@@ -1,0 +1,103 @@
+.home{
+    height: 100vh;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 !important;
+
+    &-main{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: center;
+
+        img{
+            width: 95px;
+            margin-bottom: 15px;
+        }
+        .heading{
+            display: flex;
+            flex-direction: column;
+            font-size: 48px;
+            letter-spacing: 1.2px;
+            line-height: 46px;
+
+            span{
+                font-size: 21px;
+                letter-spacing: 0.52px;
+                line-height: 20px;
+            }
+        }
+    }
+    &-scroll{
+        position: absolute;
+        bottom: 0;
+        padding: 30px;
+    }
+
+    &-menu{
+        display: flex;
+        width: 100%;
+        z-index: 3;
+        flex-direction: column;
+
+        &-inner{
+            display: flex;
+            justify-content: flex-end;
+
+            &.open{
+                .hamburger-link{
+                    .cross{
+                        display: initial;
+                        transition: 1.0s;
+                    }
+                    .burger{
+                        display: none;
+                    }
+                }
+
+                nav{
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    background-color: rgba(0,0,0,0.9);
+                    height: 100vh;
+                    width: 100vw;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .hamburger-link{
+                padding: 30px;
+                z-index: 4;
+                .cross{
+                    display: none;
+                }
+            }
+
+            nav{
+                display:none;
+
+                a{
+                    display: flex;
+                    color: #FFFFFF;
+                    font-size: 28px;
+                    padding: 15px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width:480px) {
+    /* Tablet size*/
+}
+
+@media only screen and (min-width:768px) {
+    /* Desktop size*/
+}

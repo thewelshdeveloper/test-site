@@ -1,0 +1,103 @@
+/* line 1, ../home.scss */
+.home {
+  height: 100vh;
+  background-position: top, center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 !important;
+}
+/* line 11, ../home.scss */
+.home-main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+/* line 17, ../home.scss */
+.home-main img {
+  width: 95px;
+  margin-bottom: 15px;
+}
+/* line 21, ../home.scss */
+.home-main .heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 48px;
+  letter-spacing: 1.2px;
+  line-height: 46px;
+}
+/* line 28, ../home.scss */
+.home-main .heading span {
+  font-size: 21px;
+  letter-spacing: 0.52px;
+  line-height: 20px;
+}
+/* line 35, ../home.scss */
+.home-scroll {
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+}
+/* line 41, ../home.scss */
+.home-menu {
+  display: flex;
+  width: 100%;
+  z-index: 3;
+  flex-direction: column;
+}
+/* line 47, ../home.scss */
+.home-menu-inner {
+  display: flex;
+  justify-content: flex-end;
+}
+/* line 53, ../home.scss */
+.home-menu-inner.open .hamburger-link .cross {
+  display: initial;
+  transition: 1.0s;
+}
+/* line 57, ../home.scss */
+.home-menu-inner.open .hamburger-link .burger {
+  display: none;
+}
+/* line 62, ../home.scss */
+.home-menu-inner.open nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+/* line 73, ../home.scss */
+.home-menu-inner .hamburger-link {
+  padding: 30px;
+  z-index: 4;
+}
+/* line 76, ../home.scss */
+.home-menu-inner .hamburger-link .cross {
+  display: none;
+}
+/* line 81, ../home.scss */
+.home-menu-inner nav {
+  display: none;
+}
+/* line 84, ../home.scss */
+.home-menu-inner nav a {
+  display: flex;
+  color: #FFFFFF;
+  font-size: 28px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 480px) {
+  /* Tablet size*/
+}
+@media only screen and (min-width: 768px) {
+  /* Desktop size*/
+}
