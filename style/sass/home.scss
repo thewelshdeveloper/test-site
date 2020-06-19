@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: 150%;
     display: flex;
-    align-items: center;
     flex-direction: column;
     padding: 0 !important;
 
@@ -13,6 +12,7 @@
         flex-grow: 1;
         flex-direction: column;
         justify-content: center;
+        padding: 30px;
 
         img{
             width: 95px;
@@ -36,6 +36,9 @@
         position: absolute;
         bottom: 0;
         padding: 30px;
+        align-self: center;
+        z-index: 3;
+        cursor: pointer;
     }
 
     &-menu{
@@ -96,8 +99,101 @@
 
 @media only screen and (min-width:480px) {
     /* Tablet size*/
+
+    .home{
+        background-size: 125%;
+
+        &-main{
+            padding: 50px;
+    
+            img{
+                width: 105px;
+                margin-bottom: 15px;
+            }
+            .heading{
+                font-size: 52px;
+    
+                span{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-width:768px) {
     /* Desktop size*/
+
+    .home{
+        background-size: contain;
+
+        &-main{
+            padding: 50px;
+    
+            img{
+                width: 105px;
+                margin-bottom: 15px;
+            }
+            .heading{
+                font-size: 72px;
+                line-height: 75px;
+    
+                span{
+                    font-size: 38px;
+                }
+            }
+        }
+
+        &-scroll{
+            padding: 10px;
+        }
+
+        &-menu{
+            &-inner{
+                display: flex;
+                justify-content: flex-end;
+    
+                
+                .hamburger-link{
+                    display:none
+                }
+    
+                nav{
+                    display:flex;
+    
+                    a{
+                        cursor: pointer;
+                        display: flex;
+                        color: #FFFFFF;
+                        font-size: 21px;
+                        padding: 20px;
+                        text-decoration: none;
+                    }
+                }
+
+                &.open{
+                    nav{
+                        display:flex;
+                        flex-direction: unset;
+                        position: unset;
+                        background-color: unset;
+                        height: unset;
+                        width: unset;
+                        justify-content: unset;
+                        align-items: unset;
+        
+                        a{
+                            cursor: pointer;
+                            display: flex;
+                            color: #FFFFFF;
+                            font-size: 21px;
+                            padding: 20px;
+                            text-decoration: none;
+                        }
+                    }
+    
+                }
+            }
+        }
+    }
 }

@@ -10,6 +10,14 @@
         &-row{
             display: flex;
 
+            &:last-child{
+                .timeline{
+                    .dash-holder{
+                        display: none;
+                    }
+                }
+            }
+
             .description{
                 display: flex;
                 flex-direction: column;
@@ -65,4 +73,36 @@
 
 @media only screen and (min-width:768px) {
     /* Desktop size*/
+
+    .experience{
+        &-grid{
+            &-row{
+
+                &.left{
+                    flex-flow: row-reverse;
+
+                    .description:nth-last-of-type(1){
+                        text-align: right;
+                        align-items: flex-end;
+
+                        p{
+                            text-align: right;
+                        }
+                    }
+                }
+
+                .description{
+                    min-width: 40%;
+                    p{
+                        text-align: left;
+                        max-width: 450px;
+                    }
+                }
+
+                .timeline{
+                    min-width: 10%;
+                }
+            }
+        }
+    }
 }

@@ -7,7 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
   </head>
   <body> 
-    <div class="section-black home" style="background-image: url('img/main-hero.png');">
+    <div class="section-black home" style="background-image: url('img/main-hero1.png');">
       <div class="home-menu">
         <div class="home-menu-inner">
           <a class="hamburger-link">
@@ -27,9 +27,9 @@
         <img src="img/twd-dragon.svg"/>
         <h1 class="heading"><span>The Welsh</span>DEVELOPER</h1>
       </div>
-      <div class="home-scroll">
-        <img src="img/chevron-down.svg"/>
-      </div>
+      <a class="home-scroll" data-section="#about">
+        <img data-section="#about" src="img/chevron-down.svg"/>
+      </a>
     </div>
     <div id="about" class="section-black">
       <h2 class="about-heading">A little about me...</h2>
@@ -166,62 +166,64 @@
    </div>
    <div id="experience" class="section-black">
     <h2 class="skills-heading">What I've learnt over the years...</h2>
-    <div class="skills-list">
-      <h3 class="skills-list-heading underline-white">Languages</h3>
-      <div class="flex-grid skills-grid">
-        <div class="item two"><span>C#</span></div>
-        <div class="item two"><span>CSS</span></div>
-        <div class="item two"><span>ASP.NET</span></div>
-        <div class="item two"><span>SQL</span></div>
-        <div class="item two"><span>MySQL</span></div>
-        <div class="item two"><span>Objective C</span></div>
-        <div class="item two"><span>Swift</span></div>
-        <div class="item two"><span>MongoDB</span></div>
-        <div class="item two"><span>NodeJS</span></div>
-        <div class="item two"><span>DocumentDB</span></div>
-        <div class="item two"><span>AngularJS</span></div>
-        <div class="item two"><span>Bash</span></div>
-        <div class="item two"><span>JavaScript</span></div>
-        <div class="item two"><span>Powershell</span></div>
-        <div class="item two"><span>JQuery</span></div>
-        <div class="item two"><span>Varnish VCL</span></div>
-        <div class="item two"><span>GraphQL</span></div>
-        <div class="item two"><span>Nginx</span></div>
-        <div class="item two"><span>XML</span></div>
-        <div class="item two"><span>HTAccess</span></div>
-        <div class="item two"><span>JSON</span></div>
-        <div class="item two"><span>Grunt</span></div>
-        <div class="item two"><span>HTML</span></div>
-        <div class="item two"><span>Sass</span></div>   
+    <div class="skills-outer-grid">
+      <div class="skills-list">
+        <h3 class="skills-list-heading underline-white">Languages</h3>
+        <div class="flex-grid skills-grid">
+          <div class="item two"><span>C#</span></div>
+          <div class="item two"><span>CSS</span></div>
+          <div class="item two"><span>ASP.NET</span></div>
+          <div class="item two"><span>SQL</span></div>
+          <div class="item two"><span>MySQL</span></div>
+          <div class="item two"><span>Objective C</span></div>
+          <div class="item two"><span>Swift</span></div>
+          <div class="item two"><span>MongoDB</span></div>
+          <div class="item two"><span>NodeJS</span></div>
+          <div class="item two"><span>DocumentDB</span></div>
+          <div class="item two"><span>AngularJS</span></div>
+          <div class="item two"><span>Bash</span></div>
+          <div class="item two"><span>JavaScript</span></div>
+          <div class="item two"><span>Powershell</span></div>
+          <div class="item two"><span>JQuery</span></div>
+          <div class="item two"><span>Varnish VCL</span></div>
+          <div class="item two"><span>GraphQL</span></div>
+          <div class="item two"><span>Nginx</span></div>
+          <div class="item two"><span>XML</span></div>
+          <div class="item two"><span>HTAccess</span></div>
+          <div class="item two"><span>JSON</span></div>
+          <div class="item two"><span>Grunt</span></div>
+          <div class="item two"><span>HTML</span></div>
+          <div class="item two"><span>Sass</span></div>   
+        </div>
       </div>
-    </div>
-    <div class="skills-list">
-      <h3 class="skills-list-heading underline-white">Languages</h3>
-      <div class="flex-grid skills-grid">
-        <div class="item two"><span>C#</span></div>
-        <div class="item two"><span>CSS</span></div>
-        <div class="item two"><span>ASP.NET</span></div>
-        <div class="item two"><span>SQL</span></div>
-        <div class="item two"><span>MySQL</span></div>
-        <div class="item two"><span>Objective C</span></div>
-        <div class="item two"><span>Swift</span></div>
-        <div class="item two"><span>MongoDB</span></div>
-        <div class="item two"><span>NodeJS</span></div>
-        <div class="item two"><span>DocumentDB</span></div>
-        <div class="item two"><span>AngularJS</span></div>
-        <div class="item two"><span>Bash</span></div>
-        <div class="item two"><span>JavaScript</span></div>
-        <div class="item two"><span>Powershell</span></div>
-        <div class="item two"><span>JQuery</span></div>
-        <div class="item two"><span>Varnish VCL</span></div>
-        <div class="item two"><span>GraphQL</span></div>
-        <div class="item two"><span>Nginx</span></div>
-        <div class="item two"><span>XML</span></div>
-        <div class="item two"><span>HTAccess</span></div>
-        <div class="item two"><span>JSON</span></div>
-        <div class="item two"><span>Grunt</span></div>
-        <div class="item two"><span>HTML</span></div>
-        <div class="item two"><span>Sass</span></div>   
+      <div class="skills-list">
+        <h3 class="skills-list-heading underline-white">Languages</h3>
+        <div class="flex-grid skills-grid">
+          <div class="item two"><span>C#</span></div>
+          <div class="item two"><span>CSS</span></div>
+          <div class="item two"><span>ASP.NET</span></div>
+          <div class="item two"><span>SQL</span></div>
+          <div class="item two"><span>MySQL</span></div>
+          <div class="item two"><span>Objective C</span></div>
+          <div class="item two"><span>Swift</span></div>
+          <div class="item two"><span>MongoDB</span></div>
+          <div class="item two"><span>NodeJS</span></div>
+          <div class="item two"><span>DocumentDB</span></div>
+          <div class="item two"><span>AngularJS</span></div>
+          <div class="item two"><span>Bash</span></div>
+          <div class="item two"><span>JavaScript</span></div>
+          <div class="item two"><span>Powershell</span></div>
+          <div class="item two"><span>JQuery</span></div>
+          <div class="item two"><span>Varnish VCL</span></div>
+          <div class="item two"><span>GraphQL</span></div>
+          <div class="item two"><span>Nginx</span></div>
+          <div class="item two"><span>XML</span></div>
+          <div class="item two"><span>HTAccess</span></div>
+          <div class="item two"><span>JSON</span></div>
+          <div class="item two"><span>Grunt</span></div>
+          <div class="item two"><span>HTML</span></div>
+          <div class="item two"><span>Sass</span></div>   
+        </div>
       </div>
     </div>
    </div>
@@ -244,7 +246,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
         </div>
       </div>
-      <div class="experience-grid-row">
+      <div class="experience-grid-row left">
         <div class="description"></div>
         <div class="timeline">
           <img src="img/timeline-past.svg">
@@ -262,7 +264,21 @@
         <div class="description"></div>
         <div class="timeline">
           <img src="img/timeline-past.svg">
-          
+          <div class="dash-holder"><span class="dash"></span></div>
+        </div>
+        <div class="description">
+          <h4 class="title">
+            Oliver  Wyman | Senior Developer
+          </h4>
+          <span class="date">2018 - Present</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+        </div>
+      </div>
+      <div class="experience-grid-row left">
+        <div class="description"></div>
+        <div class="timeline">
+          <img src="img/timeline-past.svg">
+          <div class="dash-holder"><span class="dash"></span></div>
         </div>
         <div class="description">
           <h4 class="title">

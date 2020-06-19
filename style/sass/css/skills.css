@@ -14,10 +14,20 @@
 .skills-grid .item {
   margin-bottom: 10px;
 }
+/* line 16, ../skills.scss */
+.skills-outer-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 55px 0 55px 0;
+}
 
 @media only screen and (min-width: 480px) {
   /* Tablet size*/
 }
 @media only screen and (min-width: 768px) {
   /* Desktop size*/
+  /* line 31, ../skills.scss */
+  .skills-outer-grid {
+    flex-direction: row;
+  }
 }

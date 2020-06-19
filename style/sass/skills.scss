@@ -13,6 +13,11 @@
             margin-bottom: 10px;
         }
     }
+    &-outer-grid{
+        display: flex;
+        flex-direction: column;
+        margin:55px 0 55px 0;
+    }
 }
 
 @media only screen and (min-width:480px) {
@@ -21,4 +26,10 @@
 
 @media only screen and (min-width:768px) {
     /* Desktop size*/
+
+    .skills{
+        &-outer-grid{
+            flex-direction: row;
+        }
+    }
 }

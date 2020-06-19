@@ -34,4 +34,35 @@
 
 @media only screen and (min-width: 480px) {
   /* Tablet size*/
+  /* line 42, ../about.scss */
+  .about-logo img {
+    width: 60%;
+    margin-bottom: 25px;
+  }
+  /* line 46, ../about.scss */
+  .about-logo .tag {
+    font-size: 16px;
+    letter-spacing: 0.30px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 57, ../about.scss */
+  .about-copy {
+    font-size: 18px;
+    margin: 55px 0 55px 0;
+  }
+  /* line 62, ../about.scss */
+  .about-grid {
+    margin-top: 70px;
+  }
+  /* line 67, ../about.scss */
+  .about-logo img {
+    width: 60%;
+    margin-bottom: 42px;
+  }
+  /* line 71, ../about.scss */
+  .about-logo .tag {
+    font-size: 18px;
+    letter-spacing: 0.45px;
+  }
 }

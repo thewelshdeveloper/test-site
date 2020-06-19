@@ -12,25 +12,29 @@
 .experience-grid-row {
   display: flex;
 }
-/* line 13, ../experience.scss */
+/* line 15, ../experience.scss */
+.experience-grid-row:last-child .timeline .dash-holder {
+  display: none;
+}
+/* line 21, ../experience.scss */
 .experience-grid-row .description {
   display: flex;
   flex-direction: column;
 }
-/* line 17, ../experience.scss */
+/* line 25, ../experience.scss */
 .experience-grid-row .description .title {
   font-size: 18px;
   letter-spacing: 0.15px;
   line-height: 20px;
   margin: 8px 0 15px 0;
 }
-/* line 24, ../experience.scss */
+/* line 32, ../experience.scss */
 .experience-grid-row .description .date {
   font-size: 16px;
   color: #484848;
   letter-spacing: 0.4px;
 }
-/* line 30, ../experience.scss */
+/* line 38, ../experience.scss */
 .experience-grid-row .description p {
   margin: 0;
   padding: 15px 0 30px 0;
@@ -39,7 +43,7 @@
   letter-spacing: 0.4px;
   text-align: justify;
 }
-/* line 39, ../experience.scss */
+/* line 47, ../experience.scss */
 .experience-grid-row .timeline {
   display: flex;
   flex-direction: column;
@@ -48,13 +52,13 @@
   width: 100%;
   margin-top: 5px;
 }
-/* line 47, ../experience.scss */
+/* line 55, ../experience.scss */
 .experience-grid-row .timeline .dash-holder {
   display: flex;
   flex-grow: 1;
   margin-top: 5px;
 }
-/* line 52, ../experience.scss */
+/* line 60, ../experience.scss */
 .experience-grid-row .timeline .dash-holder .dash {
   min-height: 100%;
   border-right: dashed black 5px;
@@ -65,4 +69,30 @@
 }
 @media only screen and (min-width: 768px) {
   /* Desktop size*/
+  /* line 81, ../experience.scss */
+  .experience-grid-row.left {
+    flex-flow: row-reverse;
+  }
+  /* line 84, ../experience.scss */
+  .experience-grid-row.left .description:nth-last-of-type(1) {
+    text-align: right;
+    align-items: flex-end;
+  }
+  /* line 88, ../experience.scss */
+  .experience-grid-row.left .description:nth-last-of-type(1) p {
+    text-align: right;
+  }
+  /* line 94, ../experience.scss */
+  .experience-grid-row .description {
+    min-width: 40%;
+  }
+  /* line 96, ../experience.scss */
+  .experience-grid-row .description p {
+    text-align: left;
+    max-width: 450px;
+  }
+  /* line 102, ../experience.scss */
+  .experience-grid-row .timeline {
+    min-width: 10%;
+  }
 }

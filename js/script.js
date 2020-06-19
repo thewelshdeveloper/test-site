@@ -16,7 +16,7 @@ $(document).ready(function() {
     );
   }); 
 
-  $(".chevron-icon").on('click', (event) => {
+  $(".home-scroll").on('click', (event) => {
       event.preventDefault();
     var hash = event.target.getAttribute("data-section");
     $([document.documentElement, document.body]).animate(

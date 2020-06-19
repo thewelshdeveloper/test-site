@@ -7,7 +7,7 @@
         margin-top: 50px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
 
         .item{
@@ -32,4 +32,17 @@
 
 @media only screen and (min-width:768px) {
     /* Desktop size*/
+
+    .contact{
+        &-grid{
+            flex-direction: row;
+
+            .item{
+
+                img{
+                    width: 150px;
+                }
+            }
+        }
+    }
 }

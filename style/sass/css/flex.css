@@ -33,7 +33,7 @@
   /* Desktop size*/
   /* line 38, ../flex.scss */
   .flex-grid .item.six {
-    flex-basis: 16.6%;
+    flex-basis: 16%;
   }
   /* line 41, ../flex.scss */
   .flex-grid .item.five {

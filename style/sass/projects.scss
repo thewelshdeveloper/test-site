@@ -38,6 +38,7 @@
 
 @media only screen and (min-width:480px) {
     /* Tablet size*/
+    
 }
 
 @media only screen and (min-width:768px) {
@@ -56,5 +57,16 @@
                 }
             }
         }
+    }
+
+    .company{
+        img{
+            &.small{
+                width: 40%;
+            }
+            &.large{
+                width: 60%;
+            }
+        }           
     }
 }

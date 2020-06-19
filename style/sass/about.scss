@@ -34,18 +34,46 @@
 
 @media only screen and (min-width:480px) {
     /* Tablet size*/
+
+    .about{
+
+
+        &-logo{
+            img{
+                width: 60%;
+                margin-bottom: 25px;
+            }
+            .tag{
+                font-size: 16px;
+                letter-spacing: 0.30px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width:768px) {
+
+    .about{
+        &-copy{
+           font-size: 18px;
+           margin: 55px 0 55px 0;
+        }
+
+        &-grid{
+            margin-top:70px;
+        }
+
+        &-logo{
+            img{
+                width: 60%;
+                margin-bottom: 42px;
+            }
+            .tag{
+                font-size: 18px;
+                letter-spacing: 0.45px;
+            }
+        }
+    }
    
-    // .logo{
-    //     img{
-    //         width: 145px;
-    //         margin-bottom: 42px;
-    //     }
-    //     .tag{
-    //         font-size: 18px;
-    //         letter-spacing: 0.45px;
-    //     }
-    // }
+    
 }
